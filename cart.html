@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWorld</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <section class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt="Logo" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/shopping basket.png" alt="Shopping Basket" width="30px" height="30px"></a>
+                <img src="images/menu icon.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+             
+                </div>
+        </div>
+    </section>
+
+
+
+<!--Cart Item Details-->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/spider man 2 PS5 cart.webp" alt="Spider-Man 2 PS5">
+                    <div>
+                        <p>Spider-Man 2 PS5</p>
+                        <small>Price: £54.99</small>
+                        <br>
+                        <a href="#">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" </td>
+            <td>£54.99</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/cod mw3 cart.webp" alt="COD MW3 PS5">
+                    <div>
+                        <p>COD MW3 PS5</p>
+                        <small>Price: £54.99</small>
+                        <br>
+                        <a href="#">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" </td>
+            <td>£54.99</td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/mario kart 8 cart.webp" alt="Mario Kart 8 Deluxe">
+                    <div>
+                        <p>Mario Kart 8 Deluxe</p>
+                        <small>Price: £37.99</small>
+                        <br>
+                        <a href="#">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1" </td>
+            <td>£37.99</td>
+        </tr>
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>£147.97</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>£29.99</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>£117.98</td>
+            </tr>
+            
+        </table>
+    </div>
+</div>
+
+
+
+<!--Footer-->
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download App</h3>
+                <p>Download App For Android & IOS Devices</p>
+                <div class="app-logo">
+                    <img src="images/footer play store.png">
+                    <img src="images/footer app store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo 2.jpg" width="200px" height="200px">
+                <p>At TechWorld, we're committed to providing you with high quality products
+                     and great customer service.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join & Become A Member</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 &copy;</p>
+    </div>
+</section>
+
+
+
+<!--js for toggle menu-->
+<script src="js/script.js"></script>
+
+<script src="https://kit.fontawesome.com/e1969a4512.js" crossorigin="anonymous"></script>
+</body>
+</html>
